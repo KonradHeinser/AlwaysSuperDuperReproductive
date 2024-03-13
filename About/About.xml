@@ -5,6 +5,7 @@
     <packageId>EBSG.ASDR</packageId>
     <supportedVersions>
         <li>1.4</li>
+        <li>1.5</li>
     </supportedVersions>
     
     <modDependencies>
@@ -28,7 +29,7 @@
     </loadAfter>
 
     <description>
-In celebration of it being one year since I released my first mod to Steam, I have provided two gifts for everyone, this and [url=]the idlemancer[/url](has both an EBSG and a SHG version available).
+In celebration of it being one year since I released my first mod to Steam, I have provided a gift for everyone.
 
 This mod adds a single gene that makes pawns always super duper reproductive. I mean physics defyingly reproductive, in addition to it being biologically impossible. I'm talking "turned off my game and my colonist is still trying to get some lovin'" impossible. You can find the gene in the reproduction section.
 
