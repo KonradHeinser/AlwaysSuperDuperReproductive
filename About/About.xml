@@ -7,7 +7,7 @@
         <li>1.4</li>
         <li>1.5</li>
     </supportedVersions>
-    
+    <modIconPath IgnoreIfNoMatchingField="True">EBSG/BSGIcon</modIconPath>
     <modDependencies>
         <li>
             <packageId>ludeon.rimworld.biotech</packageId>
