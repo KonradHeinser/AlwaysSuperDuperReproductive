@@ -14,6 +14,9 @@
         <biostatMet>-4</biostatMet>
         <biostatArc>-1</biostatArc>
         <lovinMTBFactor>0.01</lovinMTBFactor>
+        <abilities>
+            <li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+        </abilities>
         <statFactors>
             <Fertility>100</Fertility>
             <EBSG_PawnGestationSpeed>100</EBSG_PawnGestationSpeed>
