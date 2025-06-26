@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>AlwaysSuperDuperReproductive</defName>
+        <label>always super duper reproductive</label>
+        <iconPath>EBSG/Gene_AlwaysSuperDuperReproductive</iconPath>
+        <description>Carriers of this gene are always capable of reproducing to an unreasonable extent.\n\nLike, even rabbits are questioning why you would want something to reproduce this much.\n\nThis isn't even sustainable.\n\nBlink once if you need help.\n\nI didn't hear anything, so I'm going to assume we're good.\n\nMerry Lovin'!</description>
+        <displayOrderInCategory>7777777</displayOrderInCategory>
+        <customEffectDescriptions>
+            <li>Always super-duper fertile (numbers go up)</li>
+            <li>Increases the chance of lovin' to 100 times base. High libido is 2.</li>
+        </customEffectDescriptions>
+        <displayCategory>Reproduction</displayCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatArc>-1</biostatArc>
+        <lovinMTBFactor>0.01</lovinMTBFactor>
+        <abilities>
+            <li MayRequire="vanillaracesexpanded.highmate">VRE_InitiateLovin</li>
+        </abilities>
+        <statFactors>
+            <Fertility>100</Fertility>
+            <EBSG_PawnGestationSpeed>100</EBSG_PawnGestationSpeed>
+        </statFactors>
+        <exclusionTags>
+            <li>EBSG_FertilityByAge</li>
+            <li>Fertility</li>
+            <li>Libido</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="EBSGFramework.FertilityByGenderAgeExtension">
+                <maleFertilityAgeFactor>
+                    <points>
+                        <li>(14, 0)</li>
+                        <li>(18, 1)</li>
+                        <li>(50, 1)</li>
+                        <li>(90, 100)</li>
+                    </points>
+                </maleFertilityAgeFactor>
+                <femaleFertilityAgeFactor>
+                    <points>
+                        <li>(14, 0)</li>
+                        <li>(20, 1)</li>
+                        <li>(28, 1)</li>
+                        <li>(35, 2)</li>
+                        <li>(40, 10)</li>
+                        <li>(45, 50)</li>
+                        <li>(50, 100)</li>
+                    </points>
+                </femaleFertilityAgeFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+</Defs>
